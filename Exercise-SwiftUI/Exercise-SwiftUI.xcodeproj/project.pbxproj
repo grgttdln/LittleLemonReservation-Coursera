@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		06924F292BD0EE9C00F005F3 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06924F282BD0EE9C00F005F3 /* ReservationForm.swift */; };
 		06F48F762BD1CE7600E4BAC4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F48F752BD1CE7600E4BAC4 /* MainView.swift */; };
+		06F48F782BD1D33700E4BAC4 /* AddingControlsExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F48F772BD1D33700E4BAC4 /* AddingControlsExercise.swift */; };
 		06FCF9362BD0A0C1003DE620 /* Exercise_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FCF9352BD0A0C1003DE620 /* Exercise_SwiftUIApp.swift */; };
 		06FCF9382BD0A0C1003DE620 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FCF9372BD0A0C1003DE620 /* ContentView.swift */; };
 		06FCF93A2BD0A0C2003DE620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FCF9392BD0A0C2003DE620 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		06924F282BD0EE9C00F005F3 /* ReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
 		06F48F752BD1CE7600E4BAC4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		06F48F772BD1D33700E4BAC4 /* AddingControlsExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingControlsExercise.swift; sourceTree = "<group>"; };
 		06FCF9322BD0A0C1003DE620 /* Exercise-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exercise-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FCF9352BD0A0C1003DE620 /* Exercise_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise_SwiftUIApp.swift; sourceTree = "<group>"; };
 		06FCF9372BD0A0C1003DE620 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				06FCF9352BD0A0C1003DE620 /* Exercise_SwiftUIApp.swift */,
 				06FCF9372BD0A0C1003DE620 /* ContentView.swift */,
+				06F48F772BD1D33700E4BAC4 /* AddingControlsExercise.swift */,
 				06F48F752BD1CE7600E4BAC4 /* MainView.swift */,
 				06924F282BD0EE9C00F005F3 /* ReservationForm.swift */,
 				06FCF95F2BD0A12B003DE620 /* MyFirstView.swift */,
@@ -270,6 +273,7 @@
 				06FCF9602BD0A12B003DE620 /* MyFirstView.swift in Sources */,
 				06924F292BD0EE9C00F005F3 /* ReservationForm.swift in Sources */,
 				06F48F762BD1CE7600E4BAC4 /* MainView.swift in Sources */,
+				06F48F782BD1D33700E4BAC4 /* AddingControlsExercise.swift in Sources */,
 				06FCF9362BD0A0C1003DE620 /* Exercise_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
