@@ -4,19 +4,41 @@ struct LocationsView: View {
     @EnvironmentObject var model:Model
     var body: some View {
         VStack {
-            EmptyView() // 1
+            LittleLemonLogo() // 1
                 .padding(.top, 50)
             
-            EmptyView() // 2
-            .padding([.leading, .trailing], 40)
-            .padding([.top, .bottom], 8)
-            .background(Color.gray.opacity(0.2))
-            .cornerRadius(20)
+            
+            let model = Model()
+            
+            
+            if (model.displayingReservationForm) {
+                Text("Reservation Details")
+                    .padding([.leading, .trailing], 40)
+                    .padding([.top, .bottom], 8)
+                    .background(Color.gray.opacity(0.2))
+                    .cornerRadius(20)
+            } else {
+                Text("Select a Location")
+                    .padding([.leading, .trailing], 40)
+                    .padding([.top, .bottom], 8)
+                    .background(Color.gray.opacity(0.2))
+                    .cornerRadius(20)
+            }
+            
+            
             
             NavigationView {
-                EmptyView() // 3
-                .navigationBarTitle("")
-                .navigationBarHidden(true)
+                
+                List(model.restaurants, id: \.self) { restaurant in
+                    NavigationLink(destination: ReservationForm(restaurant)) {
+                        RestaurantView(restaurant)
+                    }
+                    .navigationBarTitle("")
+                    .navigationBarHidden(true)
+                }
+                
+                
+                
             }
         }
         .padding(.top, -10)
